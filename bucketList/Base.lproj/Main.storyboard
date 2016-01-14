@@ -15,11 +15,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MissionCell" id="lor-m0-cIH">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="MissionCell" id="lor-m0-cIH">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lor-m0-cIH" id="FN3-PP-TVK">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="533" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -32,10 +32,13 @@
                     <navigationItem key="navigationItem" title="Bucket List" id="u8E-9P-fvQ">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="kBD-Jj-FbZ">
                             <connections>
-                                <segue destination="0fH-qu-ajH" kind="presentation" identifier="AddNewMission" id="S5G-11-2Yj"/>
+                                <action selector="addMissionButtonPressed:" destination="QMW-mr-0qB" id="zcX-Fe-14t"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="0fH-qu-ajH" kind="presentation" identifier="DetailsSegue" id="aqk-hC-r6d"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A6L-Sm-e9c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

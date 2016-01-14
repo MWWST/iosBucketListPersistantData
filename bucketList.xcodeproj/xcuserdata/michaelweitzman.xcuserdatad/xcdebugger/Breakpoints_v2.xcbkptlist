@@ -24,7 +24,7 @@
                   moduleName = "bucketList"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/michaelweitzman/Desktop/codingDojo2016/ios/bucketList/bucketList/BucketListViewController.swift"
-                  timestampString = "474446106.573302"
+                  timestampString = "474503717.217294"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -39,7 +39,7 @@
                   moduleName = "bucketList"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/michaelweitzman/Desktop/codingDojo2016/ios/bucketList/bucketList/BucketListViewController.swift"
-                  timestampString = "474446106.573487"
+                  timestampString = "474503717.217599"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
@@ -54,7 +54,7 @@
                   moduleName = "bucketList"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/michaelweitzman/Desktop/codingDojo2016/ios/bucketList/bucketList/BucketListViewController.swift"
-                  timestampString = "474446106.573648"
+                  timestampString = "474503717.217829"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
@@ -69,7 +69,7 @@
                   moduleName = "bucketList"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/michaelweitzman/Desktop/codingDojo2016/ios/bucketList/bucketList/BucketListViewController.swift"
-                  timestampString = "474446106.573807"
+                  timestampString = "474503717.218057"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
@@ -102,27 +102,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "bucketList/BucketListViewController.swift"
-            timestampString = "474446106.565851"
+            timestampString = "474503423.174377"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "missionDetailsViewController(_:didFinishAddingMission:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "bucketList/BucketListViewController.swift"
-            timestampString = "474446001.106919"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>

@@ -8,5 +8,9 @@
 
 import Foundation
 protocol MissionDetailsViewControllerDelegate: class {
+    
     func missionDetailsViewController(controller: MissionDetailsViewController, didFinishAddingMission mission: String)
+    
+    //after we add a function we need to implement it, when we finish we will be back on our bucket list controller
+    func missionDetailsViewController(controller: MissionDetailsViewController, didFinishEditingMission mission: Mission)
 }
