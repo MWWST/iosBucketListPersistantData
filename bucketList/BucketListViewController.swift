@@ -16,7 +16,7 @@ class BucketListViewController: UITableViewController, CancelButtonDelegate, Mis
         dismissViewControllerAnimated(true, completion: nil)
     }
     
-     var missions = Mission.all()
+    var missions: [Mission] = Mission.all()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,8 +35,8 @@ class BucketListViewController: UITableViewController, CancelButtonDelegate, Mis
     func missionDetailsViewController(controller: MissionDetailsViewController, didFinishAddingMission mission: String) {
         dismissViewControllerAnimated(true, completion: nil)
 
-        var mission = Mission(obj: mission)
-        mission.save()
+        let missionToSave = Mission(obj: mission)
+        missionToSave.save()
         
         tableView.reloadData()
         

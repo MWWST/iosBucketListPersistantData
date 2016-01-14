@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MissionDetailsViewController: UITableViewController {
+class MissionDetailsViewController: UITableViewController, UITextFieldDelegate {
     
     
     weak var cancelButtonDelegate: CancelButtonDelegate?
@@ -17,6 +17,13 @@ class MissionDetailsViewController: UITableViewController {
     
     @IBAction func cancelButtonPressed(sender: UIBarButtonItem) {
         cancelButtonDelegate?.cancelButtonPressedFrom(self)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.newMissionTextField.delegate = self;
     }
     
     @IBAction func doneButtonPressed(sender: UIBarButtonItem) {
@@ -28,6 +35,11 @@ class MissionDetailsViewController: UITableViewController {
     }
     
     @IBOutlet weak var newMissionTextField: UITextField!
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
     
    
     
